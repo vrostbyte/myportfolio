@@ -9,8 +9,8 @@ export const stats = [
 
 export const bio = [
   "For over 12 years, I have built my career around one thing: making complex processes simpler, faster, and more human. I have generated nearly $6.5 million in documented savings through Lean Six Sigma, strategic automation, and AI-driven workflow design. I coach senior leaders, redesign processes, and build the tools and systems that make transformation stick.",
-  "In late 2025, I was hand-selected to move from the Office of Continuous Improvement into Vanguard\u2019s Agile Practice, embedded with Technology and Data Innovations within Personal Investor. I now partner directly with developers, product owners, and engineering teams to drive AI-enabled transformation at scale. I build Jira Forge integrations, architect enterprise data pipelines connecting Atlassian to Azure and Dataverse, manage a GitHub library of 50+ Claude AI skills for coaching, lead engagements in Figma, and use Tableau and SQL to turn massive data lakes into coaching insights. I use Claude Code daily, both to ship solutions and to deepen my understanding of how developers work so I can coach them more effectively.",
-  "I do not back down from technical challenges. Whether it is standing up an entire Agile program in Jira and Confluence, designing a five-agent AI system in Copilot Studio and Power Automate, leading a 3-month cross-functional process mapping engagement between technical and business incident management teams, or teaching myself a new tool over a weekend, I go where the work needs me to go and I deliver results.",
+  "When I joined Vanguard\u2019s Office of Continuous Improvement, I was handed an entire department to coach: the department head, five senior managers, their respective line managers, supervisors, and all of their crew. I installed Lean and Agile skills, practices, and systems across every level and coached them to maintain and grow against industry benchmarks. I also stood up an enterprise program\u2019s full onboarding into Agile, Scrum, and Jira, designing and delivering two weeks of curriculum that upskilled a cross-functional program team of senior leaders and specialists into agile delivery, Kanban boards, roadmaps, ceremonies, and artifacts. In late 2025, I was hand-selected to transition into the Agile Practice within Personal Investor, embedded with Technology and Data Innovations. I now partner directly with developers, product owners, and engineering teams to drive AI-enabled transformation. I build Jira Forge integrations, architect enterprise data pipelines connecting Atlassian to Azure and Dataverse, manage a GitHub library of 50+ Claude AI skills, lead engagements in Figma, and use Tableau, SQL, and Claude Code daily.",
+  "I do not back down from technical challenges. Whether it is designing a five-agent AI system in Copilot Studio and Power Automate, leading a 3-month engagement where I single-handedly built process maps for two non-communicating teams and used that work as the foundation to align them, or teaching myself a new technology over a weekend, I go where the work needs me to go and I deliver results.",
 ];
 
 export const experience = [
@@ -20,22 +20,21 @@ export const experience = [
     org: "Vanguard | Personal Investor Division",
     dates: "2021 - Present",
     description:
-      "Joined as a Continuous Improvement Specialist in the Office of Continuous Improvement, coaching an entire department of leaders and teams through Lean adoption, management system maturity, and process automation. Delivered nearly $6.5M in documented savings. In late 2025, hand-selected to transition into the Agile Practice within Personal Investor, embedded with Technology and Data Innovations. Now partner directly with developers, product owners, and engineering teams to drive AI-enabled process transformation, build developer tooling, and deliver scalable technology solutions.",
+      "Joined as a Continuous Improvement Specialist in the Office of Continuous Improvement, where I was responsible for coaching an entire department: the department head, five senior managers, their line managers, supervisors, and all crew. Installed Lean and Agile skills, practices, and systems across every level and coached leaders to maintain and grow against industry benchmarks. Delivered nearly $6.5M in documented savings. In late 2025, hand-selected to transition into the Agile Practice within Personal Investor, embedded with Technology and Data Innovations, where I now partner with developers, product owners, and engineering teams to drive AI-enabled process transformation and build scalable technology solutions.",
     highlights: [
       "Automated the PAS Advisor Email Evaluation Workflow in Power Automate, saving 10,465 hours annually ($984K in value) across 4,830+ monthly evaluations",
       "Delivered senior management consulting on Lean Methodologies, achieving $4.9M in annual waste reduction",
       "Led a subdivision-wide demand, capacity, and environment initiative, improving organizational maturity by 19.8%",
-      "Orchestrated Agile and Scrum training for the Platform Transition Program, facilitating the transition of 800,000+ accounts",
+      "Designed and delivered a two-week Agile, Scrum, and Jira onboarding curriculum for an enterprise program team, upskilling a Vanguard office of senior leaders and specialists into agile delivery, Kanban boards, Jira roadmaps, ceremonies, and artifacts, culminating in the transition of 800,000+ accounts",
       "Built and manage a GitHub project with 50+ Claude AI skills for Agile and Lean coaches, scaling AI-assisted coaching across the practice",
-      "Architected a 3-month incident management process consolidation engagement using Figma, leading two teams (technical IT/CTO leadership and business-facing) through discovery, process mapping, redundancy analysis, RACI charting, and strategic recommendations",
-      "Designed a five-agent Agentic Project Launcher using Copilot Studio, Power Automate, and Dataverse where a single prompt triggers sequential AI agents to build complete project plans",
+      "Led a 3-month cross-functional engagement between two non-communicating teams (technical IT/CTO leadership and business-facing), single-handedly building their process maps in Figma, presenting the work as a single source of truth, facilitating collaborative RACI charting, and delivering strategic recommendations to senior management for consolidated future-state processes",
+      "Designed a five-agent Agentic Project Launcher using Copilot Studio, Power Automate, and Dataverse where a single user prompt triggers sequential AI agents to build complete project plans",
       "Built Jira Forge app integrations for risk scoring and impact assessments, with a full enterprise data pipeline connecting Forge to Azure AD and Dataverse via the Graph API",
       "Self-taught SQL and built Tableau and Tableau Prep Flows pipelines to manage massive data lakes the Agile Practice coaches to",
       "Lead client engagements using Figma, building interactive prototypes, process maps, and visual artifacts that drive stakeholder alignment",
       "Stood up entire Agile programs in Jira and Confluence from scratch, designing Kanban boards and workflows for any delivery model",
       "Developed complex multi-branch Power Automate workflows including the Central Supervision Call Evaluation process, automating thousands of manual steps",
-      "Designed and facilitated workshops and training programs including the SATA change management framework, Scientific Method for system adoption, and strategic value proposition engagements using MURAL, Figma, and Microsoft Whiteboard",
-      "Built a personal budget tracking web app (vanilla JS, Chart.js) shipped to GitHub, then designed a v4.0 React/Zustand redesign with phased build plan",
+      "Designed and facilitated training programs including the SATA change management framework, Scientific Method for system adoption, and strategic value proposition workshops using MURAL, Figma, and Microsoft Whiteboard",
     ],
   },
   {
@@ -50,7 +49,7 @@ export const experience = [
       "Led a 6-month DMAIC project reducing Spec ID tax work object overnight holds, delivering $106,500 in 3-year cost savings",
       "Led a 9-month DMAIC initiative minimizing transfer work object defects and extra-processing waste, delivering $369,850 in annual savings and a 13.2% defect reduction, surpassing the target",
       "Self-taught Power BI and Power Query to fill an organizational gap, creating department dashboards that elevated performance discussions across the management team",
-      "Founded and sponsored the Cost Basis Professional Development Council, building professional skill development, career advancement, and networking opportunities for crew and leaders",
+      "Founded and sponsored the Cost Basis Professional Development Council, building skill development, career advancement, and networking opportunities for crew and leaders",
     ],
   },
   {
@@ -64,7 +63,7 @@ export const experience = [
       "Oversaw the department's Series 6, 63, and SIE FINRA Licensing Program, achieving the highest successful pass rates of 85% and 98% in consecutive years",
       "Maintained a perfect record of de-escalation and client satisfaction managing sensitive and complex service issues with elevated clients",
       "Developed and implemented an Excel/VBA forecasting tool for headcount and licensing needs across the department",
-      "Set performance standards, led calibration exercises, and conducted regular coaching sessions including 1-on-1s, call evaluations, and side-by-side coaching",
+      "Set performance standards, led calibration exercises, and conducted regular coaching including 1-on-1s, call evaluations, and side-by-side coaching",
     ],
   },
   {
@@ -108,6 +107,14 @@ export const projects = [
       "Built and manage a GitHub-hosted repository of 50+ Claude AI skills purpose-built for Agile and Lean coaches. A recent organizational innovation to scale AI-assisted coaching.",
     impact: "50+ skills deployed",
     tags: ["Claude Code", "GitHub", "AI Architecture"],
+  },
+  {
+    title: "Enterprise Agile Program Onboarding",
+    category: "Agile Coaching / Training Design",
+    description:
+      "Designed, scaffolded, and delivered a comprehensive two-week Agile, Scrum, and Jira curriculum to onboard an entire enterprise program team into agile delivery. The audience included a full Vanguard office and over a dozen senior leaders and their specialists. Curriculum covered agile principles, Scrum ceremonies, Kanban board design, Jira roadmaps, common clocks, sprint planning, and artifact management. This work directly enabled the successful transition of over 800,000 accounts.",
+    impact: "800K+ accounts transitioned",
+    tags: ["Jira", "Scrum", "Curriculum Design", "Agile Coaching"],
     featured: true,
   },
   {
@@ -117,15 +124,15 @@ export const projects = [
       "Architected a full enterprise integration pipeline connecting Atlassian Jira to Microsoft Dataverse via Azure AD. Designed OAuth application authentication flow, Forge backend functions for server-side API calls, normalized two-table Dataverse schema, and Graph API write operations. Built to support risk scoring data that feeds Power BI dashboards and Power Apps.",
     impact: "Cross-platform data pipeline",
     tags: ["Azure AD", "Graph API", "Jira Forge", "Dataverse"],
-    featured: true,
   },
   {
-    title: "Incident Management Process Consolidation",
+    title: "Cross-Functional Process Discovery and Alignment",
     category: "Facilitation / Process Mapping",
     description:
-      "Architected and led a 3-month cross-functional consultation between two incident management teams, one technical (developers, IT leadership, CTO officers) and one business-facing, with significant process overlap. Built the entire engagement in Figma, conducting discovery, process mapping, redundancy analysis, and collaborative RACI charting. Designed async collaboration frameworks for virtual teams and delivered strategic recommendations for process optimization at integration points, eliminating duplicate effort while navigating sensitive organizational dynamics.",
+      "Led a 3-month engagement bridging two non-communicating teams, one technical (developers, IT leadership, CTO officers) and one business-facing, that shared overlapping incident management processes. Single-handedly built comprehensive process maps in Figma and presented them as the single source of truth, using that foundation to build the working relationship between teams. Facilitated collaborative RACI charting, designed async collaboration frameworks, and delivered strategic recommendations for consolidated future-state processes to senior management.",
     impact: "3-month enterprise engagement",
     tags: ["Figma", "Process Mapping", "RACI", "Cross-Functional Facilitation"],
+    featured: true,
   },
   {
     title: "Jira Forge Risk Scoring App",
