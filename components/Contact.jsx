@@ -20,18 +20,12 @@ export default function Contact() {
         <FadeIn delay={0.15}>
           <div className="flex flex-col gap-4 items-center">
             <a
-              href="mailto:jshjgriffith@gmail.com"
+              href="mailto:me@joshjgriffith.com"
               className="inline-flex items-center gap-3 px-9 py-4 bg-accent text-white rounded-lg no-underline font-semibold text-base transition-all duration-200"
             >
-              jshjgriffith@gmail.com
+              me@joshjgriffith.com
             </a>
             <div className="flex gap-6 mt-2">
-              <a
-                href="tel:760-458-2811"
-                className="text-gray-500 no-underline text-[15px] transition-colors duration-200 hover:text-accent"
-              >
-                760-458-2811
-              </a>
               <a
                 href="https://linkedin.com/in/joshuajgriffith"
                 target="_blank"

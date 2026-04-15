@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import { stats } from "@/data/content";
 
@@ -10,17 +9,6 @@ export default function Hero() {
       id="Home"
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
     >
-      <div className="absolute inset-0">
-        <Image
-          src="/images/hero-bg.png"
-          alt=""
-          fill
-          className="object-cover object-top opacity-[0.08]"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white pointer-events-none" />
-      </div>
-
       <div className="absolute w-[600px] h-[600px] rounded-full top-[10%] right-[-10%] blur-[80px] pointer-events-none [background:radial-gradient(circle,rgba(217,79,61,0.06)_0%,transparent_70%)]" />
       <div className="absolute w-[400px] h-[400px] rounded-full bottom-[10%] left-[-5%] blur-[60px] pointer-events-none [background:radial-gradient(circle,rgba(217,79,61,0.04)_0%,transparent_70%)]" />
 

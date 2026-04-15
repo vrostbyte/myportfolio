@@ -20,14 +20,15 @@ export default function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
         <FadeIn delay={0.1}>
           <div>
-            <Image
-              src="/images/headshot.png"
-              alt="Josh Griffith"
-              width={220}
-              height={280}
-              className="rounded-lg mb-8"
-              priority
-            />
+            <div className="relative w-full h-[300px] md:h-[400px] rounded-xl overflow-hidden mb-8">
+              <Image
+                src="/images/hero-bg.png"
+                alt="Josh Griffith"
+                fill
+                className="object-cover object-top"
+                priority
+              />
+            </div>
             <p className="text-[17px] text-gray-500 leading-[1.8] mb-6">
               I have built my career around one thing: making complex processes
               simpler, faster, and more human. I coach senior leaders, redesign
