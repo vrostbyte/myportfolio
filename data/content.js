@@ -7,6 +7,12 @@ export const stats = [
   { value: "7", label: "Professional Certifications" },
 ];
 
+export const bio = [
+  "For over 12 years, I have built my career around one thing: making complex processes simpler, faster, and more human. I have generated nearly $6.5 million in documented savings through Lean Six Sigma, strategic automation, and AI-driven workflow design. I coach senior leaders, redesign processes, and build the tools and systems that make transformation stick.",
+  "In late 2025, I was hand-selected to move from the Office of Continuous Improvement into Vanguard\u2019s Agile Practice, embedded with Technology and Data Innovations within Personal Investor. I now partner directly with developers, product owners, and engineering teams to drive AI-enabled transformation at scale. I build Jira Forge integrations, architect enterprise data pipelines connecting Atlassian to Azure and Dataverse, manage a GitHub library of 50+ Claude AI skills for coaching, lead engagements in Figma, and use Tableau and SQL to turn massive data lakes into coaching insights. I use Claude Code daily, both to ship solutions and to deepen my understanding of how developers work so I can coach them more effectively.",
+  "I do not back down from technical challenges. Whether it is standing up an entire Agile program in Jira and Confluence, designing a five-agent AI system in Copilot Studio and Power Automate, leading a 3-month cross-functional process mapping engagement between technical and business incident management teams, or teaching myself a new tool over a weekend, I go where the work needs me to go and I deliver results.",
+];
+
 export const experience = [
   {
     title: "AI & Agile Practice Coach",
@@ -14,14 +20,22 @@ export const experience = [
     org: "Vanguard | Personal Investor Division",
     dates: "2021 - Present",
     description:
-      "Hand-selected in late 2025 to transition from the Office of Continuous Improvement into the Agile Practice. I partner with developers, product owners, and engineering teams to drive AI-enabled process transformation, build developer tooling, and deliver scalable technology solutions.",
+      "Joined as a Continuous Improvement Specialist in the Office of Continuous Improvement, coaching an entire department of leaders and teams through Lean adoption, management system maturity, and process automation. Delivered nearly $6.5M in documented savings. In late 2025, hand-selected to transition into the Agile Practice within Personal Investor, embedded with Technology and Data Innovations. Now partner directly with developers, product owners, and engineering teams to drive AI-enabled process transformation, build developer tooling, and deliver scalable technology solutions.",
     highlights: [
-      "Automated PAS Email Evaluation Workflow: 10,465 hours saved/year, $984K in value",
-      "$4.9M annual waste reduction through Lean consulting",
-      "19.8% improvement in organizational maturity subdivision-wide",
-      "800,000+ account transition via Agile/Scrum training program",
-      "50+ Claude AI skills managed in GitHub for coaching at scale",
-      "Jira Forge app integrations for risk scoring and impact assessments",
+      "Automated the PAS Advisor Email Evaluation Workflow in Power Automate, saving 10,465 hours annually ($984K in value) across 4,830+ monthly evaluations",
+      "Delivered senior management consulting on Lean Methodologies, achieving $4.9M in annual waste reduction",
+      "Led a subdivision-wide demand, capacity, and environment initiative, improving organizational maturity by 19.8%",
+      "Orchestrated Agile and Scrum training for the Platform Transition Program, facilitating the transition of 800,000+ accounts",
+      "Built and manage a GitHub project with 50+ Claude AI skills for Agile and Lean coaches, scaling AI-assisted coaching across the practice",
+      "Architected a 3-month incident management process consolidation engagement using Figma, leading two teams (technical IT/CTO leadership and business-facing) through discovery, process mapping, redundancy analysis, RACI charting, and strategic recommendations",
+      "Designed a five-agent Agentic Project Launcher using Copilot Studio, Power Automate, and Dataverse where a single prompt triggers sequential AI agents to build complete project plans",
+      "Built Jira Forge app integrations for risk scoring and impact assessments, with a full enterprise data pipeline connecting Forge to Azure AD and Dataverse via the Graph API",
+      "Self-taught SQL and built Tableau and Tableau Prep Flows pipelines to manage massive data lakes the Agile Practice coaches to",
+      "Lead client engagements using Figma, building interactive prototypes, process maps, and visual artifacts that drive stakeholder alignment",
+      "Stood up entire Agile programs in Jira and Confluence from scratch, designing Kanban boards and workflows for any delivery model",
+      "Developed complex multi-branch Power Automate workflows including the Central Supervision Call Evaluation process, automating thousands of manual steps",
+      "Designed and facilitated workshops and training programs including the SATA change management framework, Scientific Method for system adoption, and strategic value proposition engagements using MURAL, Figma, and Microsoft Whiteboard",
+      "Built a personal budget tracking web app (vanilla JS, Chart.js) shipped to GitHub, then designed a v4.0 React/Zustand redesign with phased build plan",
     ],
   },
   {
@@ -30,11 +44,13 @@ export const experience = [
     org: "Vanguard",
     dates: "2019 - 2021",
     description:
-      "Directed 18 tax and cost basis experts through operational realignment, DMAIC projects, and data-driven performance management.",
+      "Directed a team of 18 tax and cost basis experts through operational realignment, DMAIC improvement projects, and the introduction of data-driven performance management. Delivered over $800K in combined savings while building a culture of continuous improvement and professional development.",
     highlights: [
-      "$325,220 annual cost savings through strategic KPIs",
-      "$476,350 combined savings across two DMAIC initiatives",
-      "13.2% reduction in defect work, surpassing target",
+      "Implemented department-wide operational realignments and strategic KPIs, achieving $325,220 in annual cost savings through leader standard work and targeted training",
+      "Led a 6-month DMAIC project reducing Spec ID tax work object overnight holds, delivering $106,500 in 3-year cost savings",
+      "Led a 9-month DMAIC initiative minimizing transfer work object defects and extra-processing waste, delivering $369,850 in annual savings and a 13.2% defect reduction, surpassing the target",
+      "Self-taught Power BI and Power Query to fill an organizational gap, creating department dashboards that elevated performance discussions across the management team",
+      "Founded and sponsored the Cost Basis Professional Development Council, building professional skill development, career advancement, and networking opportunities for crew and leaders",
     ],
   },
   {
@@ -43,21 +59,26 @@ export const experience = [
     org: "Vanguard",
     dates: "2015 - 2019",
     description:
-      "Led 24 FINRA-licensed representatives. Oversaw licensing programs achieving 85% and 98% pass rates in consecutive years.",
+      "Led a team of 24 FINRA-licensed phone representatives specializing in employer-based retirement plans and investment expertise. Drove licensing program excellence, managed complex client escalations, and built forecasting tools that improved operational planning.",
     highlights: [
-      "Highest Series 6/63 pass rates in department history",
-      "Perfect de-escalation record with elevated clients",
-      "Built Excel/VBA forecasting tool for headcount planning",
+      "Oversaw the department's Series 6, 63, and SIE FINRA Licensing Program, achieving the highest successful pass rates of 85% and 98% in consecutive years",
+      "Maintained a perfect record of de-escalation and client satisfaction managing sensitive and complex service issues with elevated clients",
+      "Developed and implemented an Excel/VBA forecasting tool for headcount and licensing needs across the department",
+      "Set performance standards, led calibration exercises, and conducted regular coaching sessions including 1-on-1s, call evaluations, and side-by-side coaching",
     ],
   },
   {
-    title: "Senior Branch Manager",
+    title: "Senior Branch Manager / Branch Manager",
     subtitle: "Multiple Locations",
     org: "Hertz Car Rentals",
     dates: "2012 - 2015",
     description:
-      "Managed $2.5M+ annual revenue across multiple offices. Led fleet management strategies and built key business partnerships.",
-    highlights: [],
+      "Managed a portfolio exceeding $2.5M in annual revenue across multiple offices in the Northeast Phoenix and North Scottsdale area, including three major resorts and a private airport. Led fleet management, built key business partnerships, and drove service revenue excellence.",
+    highlights: [
+      "Led local and statewide fleet management strategies including inventory control and strategic vehicle ordering",
+      "Developed and grew relationships with key business partners, driving significant business growth and client retention",
+      "Oversaw service revenue goals per branch, driving sales and service delivery excellence across all locations",
+    ],
   },
 ];
 

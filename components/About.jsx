@@ -3,7 +3,7 @@
 import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import { SectionLabel, SectionTitle } from "@/components/SectionHeader";
-import { tools } from "@/data/content";
+import { bio, tools } from "@/data/content";
 
 export default function About() {
   return (
@@ -29,25 +29,16 @@ export default function About() {
                 priority
               />
             </div>
-            <p className="text-[17px] text-gray-500 leading-[1.8] mb-6">
-              I have built my career around one thing: making complex processes
-              simpler, faster, and more human. I coach senior leaders, redesign
-              workflows using Lean and Agile methodologies, and build scalable
-              tech-enabled solutions that deliver measurable business value.
-            </p>
-            <p className="text-[17px] text-gray-500 leading-[1.8] mb-6">
-              In late 2025, I was hand-selected to move from the Office of
-              Continuous Improvement into Vanguard&apos;s Agile Practice,
-              embedded with Technology and Data Innovations. I now partner
-              directly with developers, product owners, and engineering teams to
-              drive AI-enabled process transformation.
-            </p>
-            <p className="text-[17px] text-gray-500 leading-[1.8]">
-              I do not back down from technical challenges. I welcome them, learn
-              fast, and deliver results. From building Jira Forge integrations to
-              managing 50+ Claude AI skills in GitHub to teaching myself SQL and
-              Tableau, I go where the work needs me to go.
-            </p>
+            {bio.map((paragraph, i) => (
+              <p
+                key={i}
+                className={`text-[17px] text-gray-500 leading-[1.8] ${
+                  i < bio.length - 1 ? "mb-6" : ""
+                }`}
+              >
+                {paragraph}
+              </p>
+            ))}
           </div>
         </FadeIn>
 
