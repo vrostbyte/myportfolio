@@ -12,6 +12,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://joshjgriffith.com"),
   title: "Josh Griffith | AI & Agile Practice Coach",
   description:
     "Portfolio of Josh Griffith — AI & Agile Practice Coach, Process Transformation Expert, and builder of scalable tech-enabled solutions. Over $6.5M in documented savings.",
@@ -28,8 +29,23 @@ export const metadata = {
     title: "Josh Griffith | AI & Agile Practice Coach",
     description:
       "Over 12 years transforming how organizations work. $6.5M+ in documented savings.",
-    url: "https://joshgriffith.dev",
+    url: "https://joshjgriffith.com",
     type: "website",
+    images: [
+      {
+        url: "/images/hero-bg.png",
+        width: 1200,
+        height: 630,
+        alt: "Josh Griffith",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Josh Griffith | AI & Agile Practice Coach",
+    description:
+      "Over 12 years transforming how organizations work. $6.5M+ in documented savings.",
+    images: ["/images/hero-bg.png"],
   },
 };
 
@@ -37,7 +53,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${jetbrainsMono.variable} font-sans bg-brand-dark text-slate-200 min-h-screen overflow-x-hidden antialiased`}
+        className={`${outfit.variable} ${jetbrainsMono.variable} font-sans bg-white text-gray-500 min-h-screen overflow-x-hidden antialiased`}
       >
         {children}
       </body>

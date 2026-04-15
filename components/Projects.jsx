@@ -7,26 +7,26 @@ import { projects } from "@/data/content";
 function ProjectCard({ project, index }) {
   return (
     <FadeIn delay={index * 0.1}>
-      <div className="bg-brand-card rounded-xl border border-brand-border p-7 h-full transition-all duration-300 hover:border-brand-accent hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(217,79,61,0.15)] flex flex-col">
+      <div className="bg-white rounded-xl border border-gray-200 p-7 h-full transition-all duration-300 hover:border-accent hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(217,79,61,0.15)] flex flex-col">
         <div className="flex justify-between items-start mb-3">
-          <span className="text-[11px] uppercase tracking-[1.5px] text-brand-accent font-semibold">
+          <span className="text-[11px] uppercase tracking-[1.5px] text-accent font-semibold">
             {project.category}
           </span>
-          <span className="text-xs text-slate-500 font-medium">
+          <span className="text-xs text-gray-400 font-medium">
             {project.impact}
           </span>
         </div>
-        <h3 className="text-xl font-bold text-slate-100 mb-3 leading-[1.3]">
+        <h3 className="text-xl font-bold text-gray-900 mb-3 leading-[1.3]">
           {project.title}
         </h3>
-        <p className="text-sm text-slate-400 leading-[1.7] mb-5 flex-1">
+        <p className="text-sm text-gray-500 leading-[1.7] mb-5 flex-1">
           {project.description}
         </p>
         <div className="flex flex-wrap gap-2">
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="text-[11px] px-2.5 py-1 rounded-[20px] bg-[rgba(217,79,61,0.12)] text-brand-accent-light font-medium tracking-[0.3px]"
+              className="text-[11px] px-2.5 py-1 rounded-[20px] bg-accent-light text-accent font-medium tracking-[0.3px]"
             >
               {tag}
             </span>

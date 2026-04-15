@@ -119,6 +119,7 @@ export const community = [
     dates: "2023 - Present",
     description:
       'Planned and executed the "ABLE Summit: Empowering All Abilities," a global event emphasizing accessibility and empowerment. Led cross-departmental teams and collaborated with the Managing Director and Chief Diversity Officer.',
+    image: "/images/community-volunteer.png",
   },
   {
     title: "Girls JV Flag Football Head Coach",

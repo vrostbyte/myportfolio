@@ -6,7 +6,7 @@ import { experience } from "@/data/content";
 
 export default function Experience() {
   return (
-    <section id="Experience" className="py-[100px] px-6 bg-brand-card">
+    <section id="Experience" className="py-[100px] px-6 bg-surface">
       <div className="max-w-[1200px] mx-auto">
         <FadeIn>
           <SectionLabel label="Career" />
@@ -18,26 +18,26 @@ export default function Experience() {
             <FadeIn key={i} delay={i * 0.1}>
               <div
                 className={`grid grid-cols-1 md:grid-cols-[200px_1fr] gap-6 md:gap-10 pb-12 ${
-                  i < experience.length - 1 ? "border-b border-brand-border" : ""
+                  i < experience.length - 1 ? "border-b border-gray-200" : ""
                 }`}
               >
                 <div>
-                  <div className="text-sm font-semibold text-brand-accent sticky top-[100px]">
+                  <div className="text-sm font-semibold text-accent sticky top-[100px]">
                     {exp.dates}
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-100 mb-1">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-1">
                     {exp.title}
                   </h3>
-                  <div className="text-[15px] text-brand-accent-light font-medium mb-1">
+                  <div className="text-[15px] text-accent font-medium mb-1">
                     {exp.subtitle}
                   </div>
-                  <div className="text-sm text-slate-500 mb-4">
+                  <div className="text-sm text-gray-400 mb-4">
                     {exp.org}
                   </div>
                   <p
-                    className={`text-[15px] text-slate-400 leading-[1.7] ${
+                    className={`text-[15px] text-gray-500 leading-[1.7] ${
                       exp.highlights.length > 0 ? "mb-5" : ""
                     }`}
                   >
@@ -47,10 +47,10 @@ export default function Experience() {
                     <div className="flex flex-col gap-2.5">
                       {exp.highlights.map((h, j) => (
                         <div key={j} className="flex gap-3 items-start">
-                          <span className="text-brand-accent text-lg leading-[1.4] shrink-0">
+                          <span className="text-accent text-lg leading-[1.4] shrink-0">
                             {"\u2192"}
                           </span>
-                          <span className="text-sm text-slate-300 leading-[1.6]">
+                          <span className="text-sm text-gray-500 leading-[1.6]">
                             {h}
                           </span>
                         </div>

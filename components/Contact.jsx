@@ -10,7 +10,7 @@ export default function Contact() {
         <FadeIn>
           <SectionLabel label="Connect" />
           <SectionTitle>Let&apos;s Talk.</SectionTitle>
-          <p className="text-[17px] text-slate-400 leading-[1.7] mb-10">
+          <p className="text-[17px] text-gray-500 leading-[1.7] mb-10">
             I am always interested in conversations about process
             transformation, AI-driven automation, Agile coaching, and building
             things that make organizations work better.
@@ -21,14 +21,14 @@ export default function Contact() {
           <div className="flex flex-col gap-4 items-center">
             <a
               href="mailto:jshjgriffith@gmail.com"
-              className="inline-flex items-center gap-3 px-9 py-4 bg-brand-accent text-white rounded-lg no-underline font-semibold text-base transition-all duration-200"
+              className="inline-flex items-center gap-3 px-9 py-4 bg-accent text-white rounded-lg no-underline font-semibold text-base transition-all duration-200"
             >
               jshjgriffith@gmail.com
             </a>
             <div className="flex gap-6 mt-2">
               <a
                 href="tel:760-458-2811"
-                className="text-slate-400 no-underline text-[15px] transition-colors duration-200 hover:text-brand-accent"
+                className="text-gray-500 no-underline text-[15px] transition-colors duration-200 hover:text-accent"
               >
                 760-458-2811
               </a>
@@ -36,7 +36,7 @@ export default function Contact() {
                 href="https://linkedin.com/in/joshuajgriffith"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-400 no-underline text-[15px] transition-colors duration-200 hover:text-brand-accent"
+                className="text-gray-500 no-underline text-[15px] transition-colors duration-200 hover:text-accent"
               >
                 LinkedIn
               </a>

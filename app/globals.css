@@ -1,11 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-accent: #D94F3D;
-  --color-brand-accent-light: #E8675A;
-  --color-brand-dark: #0F1117;
-  --color-brand-card: #181B24;
-  --color-brand-border: #2A2D38;
+  --color-accent: #D94F3D;
+  --color-accent-light: #FEF2F0;
+  --color-surface: #F8F9FA;
 
   --font-sans: var(--font-outfit), "Segoe UI", sans-serif;
   --font-mono: var(--font-jetbrains-mono), monospace;
@@ -17,7 +15,7 @@ html {
 }
 
 ::selection {
-  background: var(--color-brand-accent);
+  background: var(--color-accent);
   color: white;
 }
 
@@ -26,14 +24,14 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-brand-dark);
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-brand-border);
+  background: #d1d5db;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-brand-accent);
+  background: var(--color-accent);
 }
