@@ -99,6 +99,14 @@ export const projects = [
     featured: true,
   },
   {
+    title: "Incident Management Process Consolidation",
+    category: "Facilitation / Process Mapping",
+    description:
+      "Architected and led a 3-month cross-functional consultation between two incident management teams, one technical (developers, IT leadership, CTO officers) and one business-facing, with significant process overlap. Built the entire engagement in Figma, conducting discovery, process mapping, redundancy analysis, and collaborative RACI charting. Designed async collaboration frameworks for virtual teams and delivered strategic recommendations for process optimization at integration points, eliminating duplicate effort while navigating sensitive organizational dynamics.",
+    impact: "3-month enterprise engagement",
+    tags: ["Figma", "Process Mapping", "RACI", "Cross-Functional Facilitation"],
+  },
+  {
     title: "Jira Forge Risk Scoring App",
     category: "Custom Development",
     description:
@@ -137,14 +145,6 @@ export const projects = [
       "Built and shipped a personal finance web app from scratch using vanilla JavaScript, Chart.js, and localStorage. Features include income/expense projection, debt payoff visualization, and a guided onboarding wizard. Subsequently designed a v4.0 React/Zustand redesign with a cyber-neumorphism dark theme, phased build plan, and full JSON round-trip data compatibility.",
     impact: "Shipped to GitHub",
     tags: ["React", "Zustand", "Chart.js", "Claude Code"],
-  },
-  {
-    title: "joshjgriffith.com Portfolio",
-    category: "Web Development",
-    description:
-      "Designed and built this portfolio site from the ground up using Next.js, Tailwind CSS, and Vercel. Went from concept to live deployment in a single session, using Claude and Claude Code as development partners. Features scroll-triggered animations, responsive design, and auto-deployment from GitHub.",
-    impact: "Live at joshjgriffith.com",
-    tags: ["Next.js", "Tailwind CSS", "Vercel", "GitHub"],
   },
   {
     title: "VVI Net Settlement Account Process Mapping",
