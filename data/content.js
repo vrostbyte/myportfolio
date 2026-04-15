@@ -63,12 +63,22 @@ export const experience = [
 
 export const projects = [
   {
+    title: "Agentic Project Launcher",
+    category: "AI Architecture",
+    description:
+      "Designed a multi-agent project delivery system using Power Platform where a single user prompt triggers five sequential AI agents (Project Manager, Scrum Master, Copywriter, Professional Coach, QA Reviewer) that collaboratively build a complete project plan, sprint backlog, communications, and coaching artifacts. All outputs stored in Dataverse with full audit logging.",
+    impact: "5-agent AI system",
+    tags: ["Copilot Studio", "Power Automate", "Dataverse", "AI Agents"],
+    featured: true,
+  },
+  {
     title: "PAS Email Evaluation Automation",
     category: "Power Automate",
     description:
       "Replaced a labor-intensive manual workflow with automated conditional logic, multi-level approvals, and real-time notifications. Processing 4,830+ evaluations monthly.",
     impact: "$984K annual value",
     tags: ["Power Automate", "Change Management", "Process Design"],
+    featured: true,
   },
   {
     title: "Claude AI Skills Library",
@@ -77,6 +87,16 @@ export const projects = [
       "Built and manage a GitHub-hosted repository of 50+ Claude AI skills purpose-built for Agile and Lean coaches. A recent organizational innovation to scale AI-assisted coaching.",
     impact: "50+ skills deployed",
     tags: ["Claude Code", "GitHub", "AI Architecture"],
+    featured: true,
+  },
+  {
+    title: "Enterprise Integration Architecture",
+    category: "Azure / Forge / Dataverse",
+    description:
+      "Architected a full enterprise integration pipeline connecting Atlassian Jira to Microsoft Dataverse via Azure AD. Designed OAuth application authentication flow, Forge backend functions for server-side API calls, normalized two-table Dataverse schema, and Graph API write operations. Built to support risk scoring data that feeds Power BI dashboards and Power Apps.",
+    impact: "Cross-platform data pipeline",
+    tags: ["Azure AD", "Graph API", "Jira Forge", "Dataverse"],
+    featured: true,
   },
   {
     title: "Jira Forge Risk Scoring App",
@@ -87,14 +107,6 @@ export const projects = [
     tags: ["Jira Forge", "JavaScript", "Atlassian"],
   },
   {
-    title: "Platform Transition Program",
-    category: "Agile Coaching",
-    description:
-      "Orchestrated end-to-end Agile and Scrum training for Vanguard's Platform Transition, developing comprehensive Jira training and project boards for 800,000+ account migration.",
-    impact: "800K+ accounts transitioned",
-    tags: ["Jira", "Scrum", "Training Design"],
-  },
-  {
     title: "Demand & Capacity Frontier",
     category: "Lean / Power BI",
     description:
@@ -103,12 +115,76 @@ export const projects = [
     tags: ["Power BI", "Kanban", "Lean Systems"],
   },
   {
+    title: "Platform Transition Program",
+    category: "Agile Coaching",
+    description:
+      "Orchestrated end-to-end Agile and Scrum training for Vanguard's Platform Transition, developing comprehensive Jira training and project boards for 800,000+ account migration.",
+    impact: "800K+ accounts transitioned",
+    tags: ["Jira", "Scrum", "Training Design"],
+  },
+  {
     title: "Agile Practice Data Lakes",
     category: "Data & Analytics",
     description:
       "Self-taught SQL and built Tableau/Tableau Prep Flows pipelines to manage massive data lakes the Agile Practice uses for coaching and performance insights.",
     impact: "Practice-wide analytics",
     tags: ["SQL", "Tableau", "Data Engineering"],
+  },
+  {
+    title: "Personal Budget Tracking App",
+    category: "Full-Stack Development",
+    description:
+      "Built and shipped a personal finance web app from scratch using vanilla JavaScript, Chart.js, and localStorage. Features include income/expense projection, debt payoff visualization, and a guided onboarding wizard. Subsequently designed a v4.0 React/Zustand redesign with a cyber-neumorphism dark theme, phased build plan, and full JSON round-trip data compatibility.",
+    impact: "Shipped to GitHub",
+    tags: ["React", "Zustand", "Chart.js", "Claude Code"],
+  },
+  {
+    title: "joshjgriffith.com Portfolio",
+    category: "Web Development",
+    description:
+      "Designed and built this portfolio site from the ground up using Next.js, Tailwind CSS, and Vercel. Went from concept to live deployment in a single session, using Claude and Claude Code as development partners. Features scroll-triggered animations, responsive design, and auto-deployment from GitHub.",
+    impact: "Live at joshjgriffith.com",
+    tags: ["Next.js", "Tailwind CSS", "Vercel", "GitHub"],
+  },
+  {
+    title: "VVI Net Settlement Account Process Mapping",
+    category: "Process Optimization",
+    description:
+      "Transformed a complex bank attestation process into a clear, actionable framework through stakeholder collaboration and facilitation. Transitioned from consultant to project lead, conducted discovery with senior leaders, led a four-hour collaborative mapping session, and delivered a comprehensive Visio process map with strategic recommendations that earned recognition from regulatory bodies.",
+    impact: "Regulatory recognition",
+    tags: ["Process Mapping", "Visio", "MURAL", "Compliance"],
+  },
+  {
+    title: "Scientific Method for System Adoption",
+    category: "Change Management",
+    description:
+      "Combined the Scientific Method with human-centered design to create a structured brainstorming model that tackled low adoption rates of the Vanguard Management System. Led iterative development of the model, transitioned it to MS Whiteboard for digital collaboration, and executed an organization-wide observation blitz that validated hypotheses and generated actionable adoption strategies.",
+    impact: "Division-wide adoption improvement",
+    tags: ["Scientific Method", "Human-Centered Design", "MS Whiteboard"],
+  },
+  {
+    title: "Strategic Value Proposition Development",
+    category: "Facilitation",
+    description:
+      "Designed and facilitated a MURAL-based workshop to help a senior leader and her team in Brokerage and Investments craft a compelling value proposition. Opened with Simon Sinek's Start With Why framework, guided the team through structured brainstorming, and delivered a standardized template that unified diverse perspectives into a shared strategic vision.",
+    impact: "Leadership alignment achieved",
+    tags: ["MURAL", "Simon Sinek", "Workshop Design", "Facilitation"],
+  },
+  {
+    title: "SATA Change Management Framework Training",
+    category: "Training Design",
+    description:
+      "Designed and delivered a training program introducing the SATA (Sponsor, Advocate, Target, Agent) change management framework to peers and leaders. Drew from direct academic study with the model's author, Chris Crosby, and translated the framework from theory into practical organizational application, positioning it as a complement to existing models like RACI.",
+    impact: "Org-wide training delivered",
+    tags: ["SATA Framework", "Instructional Design", "Change Management"],
+  },
+  {
+    title: "Process Owner Library Automation",
+    category: "Power Automate",
+    description:
+      "Automated the management of critical contact data for process and product owners, eliminating manual tracking and ensuring real-time accuracy. Built change alert notifications so stakeholders were immediately informed of updates, supporting both day-to-day operational efficiency and crisis readiness across the organization.",
+    impact: "Real-time accuracy achieved",
+    tags: ["Power Automate", "SharePoint", "Data Automation"],
   },
 ];
 

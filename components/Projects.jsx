@@ -7,7 +7,11 @@ import { projects } from "@/data/content";
 function ProjectCard({ project, index }) {
   return (
     <FadeIn delay={index * 0.1}>
-      <div className="bg-white rounded-xl border border-gray-200 p-7 h-full transition-all duration-300 hover:border-accent hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(217,79,61,0.15)] flex flex-col">
+      <div
+        className={`bg-white rounded-xl border border-gray-200 p-7 h-full transition-all duration-300 hover:border-accent hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(217,79,61,0.15)] flex flex-col ${
+          project.featured ? "border-l-[3px] border-l-accent" : ""
+        }`}
+      >
         <div className="flex justify-between items-start mb-3">
           <span className="text-[11px] uppercase tracking-[1.5px] text-accent font-semibold">
             {project.category}
@@ -45,7 +49,7 @@ export default function Projects() {
         <SectionTitle>Projects &amp; Impact</SectionTitle>
       </FadeIn>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((p, i) => (
           <ProjectCard key={i} project={p} index={i} />
         ))}
