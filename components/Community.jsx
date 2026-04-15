@@ -10,22 +10,22 @@ export default function Community() {
     <section id="Community" className="py-[100px] px-6 bg-surface">
       <div className="max-w-[1200px] mx-auto">
         <FadeIn>
-          <div className="relative w-full h-[200px] md:h-[300px] rounded-xl overflow-hidden mb-12 md:mb-16">
-            <Image
-              src="/images/community-volunteer.png"
-              alt="Community volunteer event in the Arizona desert"
-              fill
-              className="object-cover object-center"
-            />
-          </div>
-        </FadeIn>
-
-        <FadeIn>
           <SectionLabel label="Giving Back" />
           <SectionTitle>Community &amp; Volunteerism</SectionTitle>
         </FadeIn>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <FadeIn className="md:row-span-2">
+            <div className="rounded-xl border border-gray-200 overflow-hidden relative h-[260px] md:h-full">
+              <Image
+                src="/images/community-volunteer.png"
+                alt="Community volunteer event"
+                fill
+                className="object-cover object-top"
+              />
+            </div>
+          </FadeIn>
+
           {community.map((c, i) => (
             <FadeIn key={i} delay={i * 0.1}>
               <div className="rounded-xl border border-gray-200 bg-white h-full p-7">
