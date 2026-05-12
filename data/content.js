@@ -4,13 +4,13 @@ export const stats = [
   { value: "$6.5M+", label: "Documented Savings" },
   { value: "10,465", label: "Hours Saved Annually" },
   { value: "12+", label: "Years of Experience" },
-  { value: "7", label: "Professional Certifications" },
+  { value: "8", label: "Professional Certifications" },
 ];
 
 export const bio = [
-  "For over 12 years, I have built my career around one thing: making complex processes simpler, faster, and more human. I have generated nearly $6.5 million in documented savings through Lean Six Sigma, strategic automation, and AI-driven workflow design. I coach senior leaders, redesign processes, and build the tools and systems that make transformation stick.",
-  "When I joined Vanguard\u2019s Office of Continuous Improvement, I was handed an entire department to coach: the department head, five senior managers, their respective line managers, supervisors, and all of their crew. I installed Lean and Agile skills, practices, and systems across every level and coached them to maintain and grow against industry benchmarks. I also stood up an enterprise program\u2019s full onboarding into Agile, Scrum, and Jira, designing and delivering two weeks of curriculum that upskilled a cross-functional program team of senior leaders and specialists into agile delivery, Kanban boards, roadmaps, ceremonies, and artifacts. In late 2025, I was hand-selected to transition into the Agile Practice within Personal Investor, embedded with Technology and Data Innovations. I now partner directly with developers, product owners, and engineering teams to drive AI-enabled transformation. I build Jira Forge integrations, architect enterprise data pipelines connecting Atlassian to Azure and Dataverse, manage a GitHub library of 50+ Claude AI skills, lead engagements in Figma, and use Tableau, SQL, and Claude Code daily.",
-  "I do not back down from technical challenges. Whether it is designing a five-agent AI system in Copilot Studio and Power Automate, leading a 3-month engagement where I single-handedly built process maps for two non-communicating teams and used that work as the foundation to align them, or teaching myself a new technology over a weekend, I go where the work needs me to go and I deliver results.",
+  "For over 12 years, I have built my career around one thing: making complex processes simpler, faster, and more human. I have generated nearly $6.5 million in documented business value through Lean Six Sigma, strategic automation, and AI-driven workflow design. I coach entire departments through transformation, design AI-powered tools and workflows, and lead the change management that makes new ways of working stick.",
+  "I started by coaching an entire department from the ground up: the department head, five senior managers, their line managers, supervisors, and all crew. I installed Lean and Agile systems at every level and coached leaders against industry benchmarks. I designed and delivered a two-week onboarding curriculum that upskilled an enterprise program team of senior leaders and specialists into Agile delivery, enabling the transition of 800,000+ accounts. In mid-2025, I was hand-selected to transition into the technology and engineering organization to lead AI-enabled change initiatives. I now build multi-agent AI systems using Copilot Studio and Power Automate, manage a GitHub repository of 50+ AI skills with quality governance, build Jira Forge integrations with Azure AD and Dataverse pipelines, lead engagements in Figma, and use Tableau, SQL, and Claude Code daily.",
+  "I do not back down from technical challenges. Whether it is designing a five-agent AI system, leading a 3-month engagement where I built process maps from scratch for two siloed teams and used that work to align them, or teaching myself a new technology over a weekend, I go where the work needs me to go and I deliver results.",
 ];
 
 export const experience = [
@@ -18,23 +18,34 @@ export const experience = [
     title: "AI & Agile Practice Coach",
     subtitle: "Technology and Data Innovations",
     org: "Vanguard | Personal Investor Division",
-    dates: "2021 - Present",
+    dates: "Jun 2025 - Present",
     description:
-      "Joined as a Continuous Improvement Specialist in the Office of Continuous Improvement, where I was responsible for coaching an entire department: the department head, five senior managers, their line managers, supervisors, and all crew. Installed Lean and Agile skills, practices, and systems across every level and coached leaders to maintain and grow against industry benchmarks. Delivered nearly $6.5M in documented savings. In late 2025, hand-selected to transition into the Agile Practice within Personal Investor, embedded with Technology and Data Innovations, where I now partner with developers, product owners, and engineering teams to drive AI-enabled process transformation and build scalable technology solutions.",
+      "Hand-selected to transition from the continuous improvement practice into the technology and engineering organization to lead AI-enabled change and transformation initiatives. Partner directly with developers, product owners, and executive stakeholders to build AI-powered tooling, drive adoption, and deliver scalable solutions across a Fortune 500 enterprise.",
     highlights: [
-      "Automated the PAS Advisor Email Evaluation Workflow in Power Automate, saving 10,465 hours annually ($984K in value) across 4,830+ monthly evaluations",
-      "Delivered senior management consulting on Lean Methodologies, achieving $4.9M in annual waste reduction",
-      "Led a subdivision-wide demand, capacity, and environment initiative, improving organizational maturity by 19.8%",
-      "Designed and delivered a two-week Agile, Scrum, and Jira onboarding curriculum for an enterprise program team, upskilling a Vanguard office of senior leaders and specialists into agile delivery, Kanban boards, Jira roadmaps, ceremonies, and artifacts, culminating in the transition of 800,000+ accounts",
-      "Built and manage a GitHub project with 50+ Claude AI skills for Agile and Lean coaches, scaling AI-assisted coaching across the practice",
-      "Led a 3-month cross-functional engagement between two non-communicating teams (technical IT/CTO leadership and business-facing), single-handedly building their process maps in Figma, presenting the work as a single source of truth, facilitating collaborative RACI charting, and delivering strategic recommendations to senior management for consolidated future-state processes",
-      "Designed a five-agent Agentic Project Launcher using Copilot Studio, Power Automate, and Dataverse where a single user prompt triggers sequential AI agents to build complete project plans",
-      "Built Jira Forge app integrations for risk scoring and impact assessments, with a full enterprise data pipeline connecting Forge to Azure AD and Dataverse via the Graph API",
-      "Self-taught SQL and built Tableau and Tableau Prep Flows pipelines to manage massive data lakes the Agile Practice coaches to",
-      "Lead client engagements using Figma, building interactive prototypes, process maps, and visual artifacts that drive stakeholder alignment",
-      "Stood up entire Agile programs in Jira and Confluence from scratch, designing Kanban boards and workflows for any delivery model",
-      "Developed complex multi-branch Power Automate workflows including the Central Supervision Call Evaluation process, automating thousands of manual steps",
-      "Designed and facilitated training programs including the SATA change management framework, Scientific Method for system adoption, and strategic value proposition workshops using MURAL, Figma, and Microsoft Whiteboard",
+      "Designed and built a multi-agent AI system using Copilot Studio, Power Automate, and Dataverse that automates end-to-end project delivery artifacts from a single user prompt, reducing planning cycle time and demonstrating scalable AI adoption for non-technical teams",
+      "Built and govern a centralized repository of 50+ AI skills in GitHub, establishing peer review, quality control, and shared access across a coaching practice that previously had no visibility into how AI was being used",
+      "Led a 3-month cross-functional engagement between two siloed teams (technical and business-facing), building comprehensive process maps from scratch in Figma, facilitating RACI alignment, and delivering strategic recommendations that consolidated overlapping workflows",
+      "Built Jira Forge integrations for risk scoring and impact assessments, with an enterprise data pipeline connecting Atlassian to Azure AD and Dataverse via the Graph API. Reworked the solution into a Chrome-based app when organizational needs shifted",
+      "Self-taught SQL and built Tableau and Tableau Prep Flows pipelines to manage large-scale operational data, turning raw data into coaching insights for the entire practice",
+      "Pioneered a data democratization solution connecting cloud-hosted project data to Power BI and Tableau via Dremio, giving coaches access to analytics that previously did not exist",
+      "Serve as Microsoft 365 Copilot Champion, driving AI adoption and helping teams integrate Copilot and AI-powered workflows into daily operations. Lead client engagements in Figma. Use Claude Code daily",
+    ],
+  },
+  {
+    title: "Continuous Improvement Specialist",
+    subtitle: "Office of Continuous Improvement",
+    org: "Vanguard | Personal Investor Division",
+    dates: "Apr 2021 - Jun 2025",
+    description:
+      "Coached an entire department through Lean and Agile transformation: the department head, five senior managers, their line managers, supervisors, and all crew. Installed continuous improvement systems at every level and delivered $6.5M in documented business value over four years.",
+    highlights: [
+      "Designed and delivered a two-week Agile onboarding curriculum for an enterprise program team of senior leaders and specialists, covering Agile delivery, Kanban, Jira, roadmaps, ceremonies, and artifacts. Directly enabled the transition of 800,000+ accounts",
+      "Automated a multi-level evaluation and approval workflow using Power Automate, eliminating manual processes for 4,830+ monthly evaluations and saving 10,465 hours annually ($984K in value). Led full change management: stakeholder engagement, training, communications, and adoption tracking",
+      "Achieved $4.9 million in annual waste reduction through senior management consulting on Lean methodologies and operational performance improvement",
+      "Led a subdivision-wide transformation initiative that improved organizational maturity by 19.8% across demand, capacity, and environment systems",
+      "Built Power BI dashboards for capacity planning, demand management, and performance tracking, providing leadership with real-time data-driven visibility",
+      "Developed complex multi-branch automated workflows for evaluation and compliance processes, automating thousands of manual steps and improving data accuracy",
+      "Designed and facilitated training programs on change management frameworks, system adoption using the Scientific Method, and strategic value proposition workshops",
     ],
   },
   {
@@ -43,13 +54,12 @@ export const experience = [
     org: "Vanguard",
     dates: "2019 - 2021",
     description:
-      "Directed a team of 18 tax and cost basis experts through operational realignment, DMAIC improvement projects, and the introduction of data-driven performance management. Delivered over $800K in combined savings while building a culture of continuous improvement and professional development.",
+      "Directed 18 specialists through operational transformation, managing concurrent DMAIC improvement cycles and introducing data-driven performance management in a regulated environment.",
     highlights: [
-      "Implemented department-wide operational realignments and strategic KPIs, achieving $325,220 in annual cost savings through leader standard work and targeted training",
-      "Led a 6-month DMAIC project reducing Spec ID tax work object overnight holds, delivering $106,500 in 3-year cost savings",
-      "Led a 9-month DMAIC initiative minimizing transfer work object defects and extra-processing waste, delivering $369,850 in annual savings and a 13.2% defect reduction, surpassing the target",
-      "Self-taught Power BI and Power Query to fill an organizational gap, creating department dashboards that elevated performance discussions across the management team",
-      "Founded and sponsored the Cost Basis Professional Development Council, building skill development, career advancement, and networking opportunities for crew and leaders",
+      "Led two concurrent DMAIC initiatives delivering $476,350 in combined savings and a 13.2% defect reduction, exceeding the target goal",
+      "Implemented strategic KPIs and leader standard work that achieved $325,220 in annual cost savings through operational realignment and targeted training",
+      "Self-taught Power BI and Power Query to fill an organizational gap, building dashboards that elevated data-driven decision making across the management team",
+      "Founded a professional development council to build skill development and career advancement opportunities across the department",
     ],
   },
   {
@@ -58,12 +68,11 @@ export const experience = [
     org: "Vanguard",
     dates: "2015 - 2019",
     description:
-      "Led a team of 24 FINRA-licensed phone representatives specializing in employer-based retirement plans and investment expertise. Drove licensing program excellence, managed complex client escalations, and built forecasting tools that improved operational planning.",
+      "Led 24 FINRA-licensed representatives in financial services. Drove licensing program excellence, managed complex stakeholder escalations, and built forecasting tools for operational planning.",
     highlights: [
-      "Oversaw the department's Series 6, 63, and SIE FINRA Licensing Program, achieving the highest successful pass rates of 85% and 98% in consecutive years",
-      "Maintained a perfect record of de-escalation and client satisfaction managing sensitive and complex service issues with elevated clients",
-      "Developed and implemented an Excel/VBA forecasting tool for headcount and licensing needs across the department",
-      "Set performance standards, led calibration exercises, and conducted regular coaching including 1-on-1s, call evaluations, and side-by-side coaching",
+      "Drove licensing pass rates to department highs of 85% and 98% in consecutive years through structured training delivery and coaching",
+      "Built an Excel/VBA forecasting tool for headcount and licensing needs, enabling data-driven resource planning",
+      "Maintained a perfect de-escalation record managing complex service issues, demonstrating negotiation skills and stakeholder management",
     ],
   },
   {
@@ -72,12 +81,8 @@ export const experience = [
     org: "Hertz Car Rentals",
     dates: "2012 - 2015",
     description:
-      "Managed a portfolio exceeding $2.5M in annual revenue across multiple offices in the Northeast Phoenix and North Scottsdale area, including three major resorts and a private airport. Led fleet management, built key business partnerships, and drove service revenue excellence.",
-    highlights: [
-      "Led local and statewide fleet management strategies including inventory control and strategic vehicle ordering",
-      "Developed and grew relationships with key business partners, driving significant business growth and client retention",
-      "Oversaw service revenue goals per branch, driving sales and service delivery excellence across all locations",
-    ],
+      "Managed $2.5M+ annual revenue across multiple geographically distributed locations. Led fleet strategy, cross-functional operations, and business partner development.",
+    highlights: [],
   },
 ];
 
@@ -92,10 +97,10 @@ export const projects = [
     featured: true,
   },
   {
-    title: "PAS Email Evaluation Automation",
+    title: "Enterprise Evaluation Workflow Automation",
     category: "Power Automate",
     description:
-      "Replaced a labor-intensive manual workflow with automated conditional logic, multi-level approvals, and real-time notifications. Processing 4,830+ evaluations monthly.",
+      "Replaced a labor-intensive manual evaluation and approval workflow with automated conditional logic, multi-level approvals, and real-time notifications using Power Automate. Processing 4,830+ evaluations monthly.",
     impact: "$984K annual value",
     tags: ["Power Automate", "Change Management", "Process Design"],
     featured: true,
@@ -146,15 +151,15 @@ export const projects = [
     title: "Demand & Capacity Frontier",
     category: "Lean / Power BI",
     description:
-      "Transformed how demand and capacity were understood and managed across a subdivision, visualizing operational maturity and empowering leaders with actionable data.",
+      "Transformed how demand and capacity were understood and managed across a subdivision, visualizing operational maturity and empowering leaders with actionable data to drive informed resource decisions.",
     impact: "19.8% maturity improvement",
     tags: ["Power BI", "Kanban", "Lean Systems"],
   },
   {
-    title: "Platform Transition Program",
+    title: "Enterprise Agile Transition Program",
     category: "Agile Coaching",
     description:
-      "Orchestrated end-to-end Agile and Scrum training for Vanguard's Platform Transition, developing comprehensive Jira training and project boards for 800,000+ account migration.",
+      "Orchestrated end-to-end Agile and Scrum training for a major enterprise platform transition, developing comprehensive Jira training and project boards that enabled the migration of 800,000+ accounts.",
     impact: "800K+ accounts transitioned",
     tags: ["Jira", "Scrum", "Training Design"],
   },
@@ -162,7 +167,7 @@ export const projects = [
     title: "Agile Practice Data Lakes",
     category: "Data & Analytics",
     description:
-      "Self-taught SQL and built Tableau/Tableau Prep Flows pipelines to manage massive data lakes the Agile Practice uses for coaching and performance insights.",
+      "Self-taught SQL and built Tableau and Tableau Prep Flows pipelines to manage massive operational data lakes used for coaching and performance insights across the practice.",
     impact: "Practice-wide analytics",
     tags: ["SQL", "Tableau", "Data Engineering"],
   },
@@ -175,7 +180,7 @@ export const projects = [
     tags: ["React", "Zustand", "Chart.js", "Claude Code"],
   },
   {
-    title: "VVI Net Settlement Account Process Mapping",
+    title: "Financial Process Mapping & Compliance",
     category: "Process Optimization",
     description:
       "Transformed a complex bank attestation process into a clear, actionable framework through stakeholder collaboration and facilitation. Transitioned from consultant to project lead, conducted discovery with senior leaders, led a four-hour collaborative mapping session, and delivered a comprehensive Visio process map with strategic recommendations that earned recognition from regulatory bodies.",
@@ -186,7 +191,7 @@ export const projects = [
     title: "Scientific Method for System Adoption",
     category: "Change Management",
     description:
-      "Combined the Scientific Method with human-centered design to create a structured brainstorming model that tackled low adoption rates of the Vanguard Management System. Led iterative development of the model, transitioned it to MS Whiteboard for digital collaboration, and executed an organization-wide observation blitz that validated hypotheses and generated actionable adoption strategies.",
+      "Combined the Scientific Method with human-centered design to create a structured brainstorming model that tackled low system adoption rates. Led iterative development of the model, transitioned it to MS Whiteboard for digital collaboration, and executed an organization-wide observation blitz that validated hypotheses and generated actionable adoption strategies.",
     impact: "Division-wide adoption improvement",
     tags: ["Scientific Method", "Human-Centered Design", "MS Whiteboard"],
   },
@@ -256,6 +261,7 @@ export const tools = [
 ];
 
 export const certs = [
+  "Copilot Champion",
   "PL-900 (Microsoft)",
   "PSM (Scrum.org)",
   "PSPO (Scrum.org)",
