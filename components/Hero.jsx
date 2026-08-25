@@ -28,7 +28,7 @@ export default function Hero() {
         <FadeIn>
           <div className="inline-block px-5 py-1.5 rounded-[30px] border border-gray-200 bg-accent-light mb-8">
             <span className="text-[13px] text-accent font-medium tracking-[0.5px]">
-              Insightful. Strategic. Innovative.
+              Change Strategy · AI-Enabled Adoption · Stakeholder Engagement
             </span>
           </div>
         </FadeIn>
@@ -43,9 +43,10 @@ export default function Hero() {
 
         <FadeIn delay={0.3}>
           <p className="text-xl text-gray-500 max-w-[640px] mx-auto mb-12 leading-[1.6] font-light">
-            AI &amp; Agile Practice Coach building scalable, tech-enabled
-            solutions that transform how organizations work. Over 12 years
-            turning complex processes into measurable results.
+            Change strategist and AI Enablement &amp; Transformation Lead
+            building the adoption, training, and governance frameworks that
+            turn technology access into lasting change. Over 12 years turning
+            complex processes into measurable results.
           </p>
         </FadeIn>
 

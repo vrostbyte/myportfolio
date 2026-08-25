@@ -13,20 +13,22 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata = {
   metadataBase: new URL("https://joshjgriffith.com"),
-  title: "Josh Griffith | AI & Agile Practice Coach",
+  title: "Josh Griffith | Change Strategist & AI Enablement Lead",
   description:
-    "Portfolio of Josh Griffith — AI & Agile Practice Coach, Process Transformation Expert, and builder of scalable tech-enabled solutions. Over $6.5M in documented savings.",
+    "Portfolio of Josh Griffith — Change Strategist, AI Enablement & Transformation Lead, and builder of the adoption, training, and governance frameworks that make transformation stick. Over $6.5M in documented savings.",
   keywords: [
     "Josh Griffith",
-    "Agile Coach",
-    "Process Transformation",
+    "Change Strategist",
+    "Change Management",
+    "AI Enablement",
+    "Organizational Transformation",
     "Lean Six Sigma",
-    "AI Automation",
+    "AI Adoption",
     "Power Platform",
     "Organizational Development",
   ],
   openGraph: {
-    title: "Josh Griffith | AI & Agile Practice Coach",
+    title: "Josh Griffith | Change Strategist & AI Enablement Lead",
     description:
       "Over 12 years transforming how organizations work. $6.5M+ in documented savings.",
     url: "https://joshjgriffith.com",
@@ -42,7 +44,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Josh Griffith | AI & Agile Practice Coach",
+    title: "Josh Griffith | Change Strategist & AI Enablement Lead",
     description:
       "Over 12 years transforming how organizations work. $6.5M+ in documented savings.",
     images: ["/images/hero-bg.png"],

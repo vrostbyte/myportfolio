@@ -30,9 +30,11 @@ export default function Experience() {
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">
                     {exp.title}
                   </h3>
-                  <div className="text-[15px] text-accent font-medium mb-1">
-                    {exp.subtitle}
-                  </div>
+                  {exp.subtitle && (
+                    <div className="text-[15px] text-accent font-medium mb-1">
+                      {exp.subtitle}
+                    </div>
+                  )}
                   <div className="text-sm text-gray-400 mb-4">
                     {exp.org}
                   </div>

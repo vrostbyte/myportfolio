@@ -8,81 +8,86 @@ export const stats = [
 ];
 
 export const bio = [
-  "For over 12 years, I have built my career around one thing: making complex processes simpler, faster, and more human. I have generated nearly $6.5 million in documented business value through Lean Six Sigma, strategic automation, and AI-driven workflow design. I coach entire departments through transformation, design AI-powered tools and workflows, and lead the change management that makes new ways of working stick.",
-  "I started by coaching an entire department from the ground up: the department head, five senior managers, their line managers, supervisors, and all crew. I installed Lean and Agile systems at every level and coached leaders against industry benchmarks. I designed and delivered a two-week onboarding curriculum that upskilled an enterprise program team of senior leaders and specialists into Agile delivery, enabling the transition of 800,000+ accounts. In mid-2025, I was hand-selected to transition into the technology and engineering organization to lead AI-enabled change initiatives. I now build multi-agent AI systems using Copilot Studio and Power Automate, manage a GitHub repository of 50+ AI skills with quality governance, build Jira Forge integrations with Azure AD and Dataverse pipelines, lead engagements in Figma, and use Tableau, SQL, and Claude Code daily.",
-  "I do not back down from technical challenges. Whether it is designing a five-agent AI system, leading a 3-month engagement where I built process maps from scratch for two siloed teams and used that work to align them, or teaching myself a new technology over a weekend, I go where the work needs me to go and I deliver results.",
+  "Change strategist with 12+ years designing and executing change programs across complex, matrixed financial services environments: translating strategic priorities into actionable plans, aligning stakeholders across business and technology, and building the adoption, training, and communication strategies that make transformation stick. I have owned organizational change management end-to-end, from change impact assessments and stakeholder engagement plans through training strategy, adoption metrics, and post-launch reinforcement.",
+  "My current focus extends that discipline into technology-driven environments shaped by Generative AI, building the tools, governance frameworks, and enablement programs that turn AI access into AI adoption. I have generated $6.5 million in documented business value through structured change management, workflow automation, and Lean Six Sigma.",
+  "My manager has described me as “a technologist” and “a master of learning new technologies quickly and adapting them for business use.” I hold a Master of Arts in Organizational Leadership from Gonzaga University (4.0 GPA), and I am a Microsoft 365 Copilot Champion (competitive selection) and Certified Six Sigma Green Belt.",
 ];
 
 export const experience = [
   {
-    title: "AI & Agile Practice Coach",
-    subtitle: "Technology and Data Innovations",
+    title: "AI Enablement & Transformation Lead",
+    subtitle: "",
     org: "Vanguard | Personal Investor Division",
     dates: "Jun 2025 - Present",
     description:
-      "Hand-selected to transition from the continuous improvement practice into the technology and engineering organization to lead AI-enabled change and transformation initiatives. Partner directly with developers, product owners, and executive stakeholders to build AI-powered tooling, drive adoption, and deliver scalable solutions across a Fortune 500 enterprise.",
+      "Lead AI enablement and adoption strategy across a Fortune 500 financial services enterprise, partnering with business and technology stakeholders to translate AI initiatives into sustained behavior change. Build AI-powered tools, training platforms, and governance frameworks that close the gap between AI access and AI transformation.",
     highlights: [
-      "Designed and built a multi-agent AI system using Copilot Studio, Power Automate, and Dataverse that automates end-to-end project delivery artifacts from a single user prompt, reducing planning cycle time and demonstrating scalable AI adoption for non-technical teams",
-      "Built and govern a centralized repository of 50+ AI skills in GitHub, establishing peer review, quality control, and shared access across a coaching practice that previously had no visibility into how AI was being used",
-      "Led a 3-month cross-functional engagement between two siloed teams (technical and business-facing), building comprehensive process maps from scratch in Figma, facilitating RACI alignment, and delivering strategic recommendations that consolidated overlapping workflows",
-      "Built Jira Forge integrations for risk scoring and impact assessments, with an enterprise data pipeline connecting Atlassian to Azure AD and Dataverse via the Graph API. Reworked the solution into a Chrome-based app when organizational needs shifted",
-      "Self-taught SQL and built Tableau and Tableau Prep Flows pipelines to manage large-scale operational data, turning raw data into coaching insights for the entire practice",
-      "Pioneered a data democratization solution connecting cloud-hosted project data to Power BI and Tableau via Dremio, giving coaches access to analytics that previously did not exist",
-      "Serve as Microsoft 365 Copilot Champion, driving AI adoption and helping teams integrate Copilot and AI-powered workflows into daily operations. Lead client engagements in Figma. Use Claude Code daily",
+      "Led a 3-month cross-functional engagement between two siloed teams (technical IT/development leadership and business-facing staff), building process maps in Figma as a shared source of truth, facilitating RACI alignment, and delivering consolidated future-state recommendations to senior leadership",
+      "Serve as Microsoft 365 Copilot Champion, driving AI readiness and adoption and coaching teams on integrating AI-powered workflows into daily operations",
+      "Built and govern a centralized repository of 50+ AI skills in GitHub with peer review and quality governance, serving as the AI center of excellence for the entire coaching practice",
+      "Designed and built a multi-agent AI system using Copilot Studio, Power Automate, and Dataverse that automates end-to-end project delivery artifacts from a single user prompt",
+      "Currently building an AI LLM Skills Hub that gamifies skill contributions, tracks quality at the source, and measures usage and adoption through game mechanics",
+      "Built AgileLingo, a gamified training platform as a React application using Claude Code, packaged into PowerApps via Microsoft PAC CLI for enterprise deployment",
+      "Built Isaac, an AI-powered CLI tool suite housing a Claude Code Skills Builder, Statusline Generator, MarkItDown file converter, Build Safely security prompt generator, glossary with hoverable Verbose Mode definitions, and an intake system",
+      "Designed and delivered How2GitGood, a 22-step interactive Git/GitHub course in one week with mock terminals, live branch visualizations, mock PR pages, and knowledge checks",
+      "Developed applications using Google AI Studio, Gemini CLI, and Antigravity CLI, including a native Android application. Leverage Atlassian Rovo for AI-powered flow analytics and discovery",
+      "Self-taught SQL and built Tableau and Tableau Prep Flows pipelines. Pioneered data democratization connecting cloud-hosted project data to Power BI and Tableau via Dremio",
     ],
   },
   {
-    title: "Continuous Improvement Specialist",
-    subtitle: "Office of Continuous Improvement",
+    title: "Senior Change Management & Process Excellence Specialist",
+    subtitle: "",
     org: "Vanguard | Personal Investor Division",
     dates: "Apr 2021 - Jun 2025",
     description:
-      "Coached an entire department through Lean and Agile transformation: the department head, five senior managers, their line managers, supervisors, and all crew. Installed continuous improvement systems at every level and delivered $6.5M in documented business value over four years.",
+      "Embedded across an entire department as the cross-functional transformation lead: department head, five senior managers, line managers, supervisors, and all crew. Designed change strategies, built adoption plans, delivered training programs, and coached leaders to sustain new ways of working. Delivered $6.5M in documented business value.",
     highlights: [
-      "Designed and delivered a two-week Agile onboarding curriculum for an enterprise program team of senior leaders and specialists, covering Agile delivery, Kanban, Jira, roadmaps, ceremonies, and artifacts. Directly enabled the transition of 800,000+ accounts",
-      "Automated a multi-level evaluation and approval workflow using Power Automate, eliminating manual processes for 4,830+ monthly evaluations and saving 10,465 hours annually ($984K in value). Led full change management: stakeholder engagement, training, communications, and adoption tracking",
+      "Automated a multi-level evaluation and approval workflow using Power Automate, saving 10,465 hours annually ($984K in value). Led the full change management lifecycle, including readiness assessment, training, and adoption reinforcement, across three distinct stakeholder groups",
+      "Designed and delivered a two-week Agile onboarding curriculum for an enterprise program team of senior leaders and specialists, covering Agile delivery, Kanban, Jira, roadmaps, ceremonies, and artifacts. Enabled 800,000+ account transitions",
+      "Designed and delivered training on change management frameworks, including SATA (studied under its author, Chris Crosby), system adoption methodology, and strategic value workshops. Built Power BI dashboards for capacity, demand, and performance to track outcomes",
+      "Led a subdivision-wide transformation initiative improving organizational maturity by 19.8% across demand, capacity, and environment systems",
       "Achieved $4.9 million in annual waste reduction through senior management consulting on Lean methodologies and operational performance improvement",
-      "Led a subdivision-wide transformation initiative that improved organizational maturity by 19.8% across demand, capacity, and environment systems",
-      "Built Power BI dashboards for capacity planning, demand management, and performance tracking, providing leadership with real-time data-driven visibility",
-      "Developed complex multi-branch automated workflows for evaluation and compliance processes, automating thousands of manual steps and improving data accuracy",
-      "Designed and facilitated training programs on change management frameworks, system adoption using the Scientific Method, and strategic value proposition workshops",
+      "Single-handedly moved the entire CI function from Excel and OneNote to Jira and Confluence without being asked, conducting roadshows, building intake tools with Atlassian APIs, and driving adoption",
     ],
   },
   {
-    title: "Tax Operations Manager",
-    subtitle: "Retail Regulatory Operations",
-    org: "Vanguard",
-    dates: "2019 - 2021",
+    title: "Operations Manager, Tax & Regulatory Services",
+    subtitle: "",
+    org: "Vanguard | Retail Regulatory Operations",
+    dates: "Feb 2019 - Apr 2021",
     description:
-      "Directed 18 specialists through operational transformation, managing concurrent DMAIC improvement cycles and introducing data-driven performance management in a regulated environment.",
+      "Directed 18 specialists with full supervisory authority in a regulated financial services environment. Led concurrent improvement initiatives and introduced data-driven performance management.",
     highlights: [
       "Led two concurrent DMAIC initiatives delivering $476,350 in combined savings and a 13.2% defect reduction, exceeding the target goal",
-      "Implemented strategic KPIs and leader standard work that achieved $325,220 in annual cost savings through operational realignment and targeted training",
-      "Self-taught Power BI and Power Query to fill an organizational gap, building dashboards that elevated data-driven decision making across the management team",
-      "Founded a professional development council to build skill development and career advancement opportunities across the department",
+      "Implemented strategic KPIs and leader standard work achieving $325,220 in annual cost savings through operational realignment and targeted training",
+      "Self-taught Power BI and Power Query, building dashboards that elevated data-driven decision making across the management team",
+      "Founded a professional development council for department-wide skill building and career advancement",
     ],
   },
   {
-    title: "Participant Services Manager",
-    subtitle: "Institutional Investment Group",
-    org: "Vanguard",
-    dates: "2015 - 2019",
+    title: "Financial Services Operations Manager",
+    subtitle: "",
+    org: "Vanguard | Institutional Investment Group",
+    dates: "Jul 2015 - Feb 2019",
     description:
-      "Led 24 FINRA-licensed representatives in financial services. Drove licensing program excellence, managed complex stakeholder escalations, and built forecasting tools for operational planning.",
+      "Led 24 FINRA-licensed representatives in institutional investment services. Drove licensing program excellence, managed complex stakeholder escalations, and built forecasting tools.",
     highlights: [
       "Drove licensing pass rates to department highs of 85% and 98% in consecutive years through structured training delivery and coaching",
-      "Built an Excel/VBA forecasting tool for headcount and licensing needs, enabling data-driven resource planning",
-      "Maintained a perfect de-escalation record managing complex service issues, demonstrating negotiation skills and stakeholder management",
+      "Built an Excel/VBA forecasting tool for headcount and licensing needs, enabling data-driven resource planning and budget management",
+      "Maintained a perfect de-escalation record managing complex client situations. Coached and mentored 24 team members through performance management and career development",
     ],
   },
   {
-    title: "Senior Branch Manager / Branch Manager",
-    subtitle: "Multiple Locations",
+    title: "Senior Operations Manager, Multi-Location",
+    subtitle: "",
     org: "Hertz Car Rentals",
-    dates: "2012 - 2015",
+    dates: "Nov 2012 - Jun 2015",
     description:
-      "Managed $2.5M+ annual revenue across multiple geographically distributed locations. Led fleet strategy, cross-functional operations, and business partner development.",
-    highlights: [],
+      "Managed $2.5M+ annual revenue across multiple geographically distributed locations with full P&L responsibility.",
+    highlights: [
+      "Led cross-functional operations, fleet strategy, resource management, and business partner development across distributed locations",
+      "Built forecasting models in Excel for staffing and inventory planning. Led team onboarding, training, and performance management",
+    ],
   },
 ];
 
@@ -253,11 +258,12 @@ export const community = [
 ];
 
 export const tools = [
-  { category: "AI & Dev", items: ["Claude Code", "GitHub", "Jira Forge", "AI Prompt Engineering"] },
-  { category: "Data", items: ["Tableau", "SQL", "Power BI", "Python", "Excel/VBA"] },
-  { category: "Platform", items: ["Power Automate", "Power Apps", "Copilot Studio"] },
-  { category: "Design", items: ["Figma", "MURAL", "Visio", "Adobe Creative Suite"] },
-  { category: "Project", items: ["Jira", "Confluence", "Kanban", "ActionableAgile"] },
+  { category: "AI Platforms", items: ["Claude Code (Anthropic)", "Google AI Studio", "Gemini CLI", "Antigravity CLI", "Microsoft Copilot", "Copilot Studio", "Atlassian Rovo", "AI Prompt Engineering", "Multi-Agent System Design"] },
+  { category: "Automation & Platform", items: ["Power Automate", "Power Apps", "Copilot Studio", "Dataverse", "Azure AD", "Microsoft Graph API", "PAC CLI", "SharePoint"] },
+  { category: "Development", items: ["React", "Vite", "Next.js", "Kotlin (Android)", "Tailwind CSS", "JavaScript", "Jira Forge", "GitHub", "Vercel"] },
+  { category: "Data & Analytics", items: ["Tableau", "Tableau Prep Flows", "SQL", "Power BI", "Power Query", "Excel (Advanced)", "VBA", "Python", "Minitab"] },
+  { category: "Design & Facilitation", items: ["Figma", "FigJam", "MURAL", "MIRO", "Microsoft Whiteboard", "Visio", "Adobe Creative Suite"] },
+  { category: "Project & Delivery", items: ["Jira (Admin, Kanban, Scrum, Roadmaps, Forge, Rovo)", "Confluence", "ActionableAgile"] },
 ];
 
 export const certs = [
