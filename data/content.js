@@ -93,6 +93,24 @@ export const experience = [
 
 export const projects = [
   {
+    title: "Jira Notifications Hub",
+    category: "Power Automate / Copilot Studio",
+    description:
+      "Built a tiered risk-scoring system for Jira epics: pulls every epic, evaluates how long it's been sitting in its current 'in progress' status, and buckets it into a P70/P80/P90 risk tier using a percentile-based aging model instead of a flat day-count threshold. A Power Automate flow sends weekly digests to three audiences — PMs, senior PMs, and team leads — each framed differently for that audience, plus a separate executive digest for the managing director. A Microsoft Copilot Studio AI agent, loaded with the division's specific coaching methodology, assesses each aging epic and generates the insight included in the digest, applying that methodology to judge why an epic is stuck rather than producing a generic summary.",
+    impact: "Tiered risk digest system",
+    tags: ["Power Automate", "Jira", "Copilot Studio", "AI Agents"],
+    featured: true,
+  },
+  {
+    title: "Project Rhytic Study",
+    category: "Dynamics 365 / Copilot Studio",
+    description:
+      "Built a real-time monitoring layer over Dynamics 365, the system that routes client-booked specialist calls without checking capacity against who's actually available — the only signal a specialist previously got was the event appearing on their Outlook calendar. The system polls every specialist's calendar every 30 minutes during active scheduling hours, compares bookings against staffing requirements and real availability, and proactively flags actual availability breaches — not near-misses — in a recurring leadership digest. A Microsoft Copilot Studio agent running on Claude Sonnet 5 takes breach data and generates scheduling recommendations and proposals for leadership. A separate notification flow proactively alerts specialists the moment a new booking comes through, and a model-driven Power App gives leadership and specialists a live view of department-wide scheduling health.",
+    impact: "Real-time scheduling integrity",
+    tags: ["Dynamics 365", "Power Automate", "Copilot Studio", "Claude Sonnet 5", "Power Apps"],
+    featured: true,
+  },
+  {
     title: "Agentic Project Launcher",
     category: "AI Architecture",
     description:
